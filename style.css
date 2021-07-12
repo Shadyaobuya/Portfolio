@@ -218,6 +218,7 @@ h3{
 
 #imgcontact{
     margin-left: -17%;
+    height: 14%;
 }
 footer{
     background-color: #2F2C2A;
@@ -233,7 +234,7 @@ footer{
 .conttext{
     position: absolute;
     left: 40%;
-    top: 330%;
+    top: 300%;
     text-align: center;
     color: black;
     font-weight: bolder;
