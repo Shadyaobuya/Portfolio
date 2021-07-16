@@ -1,6 +1,6 @@
 body{
     background-color:white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cinzel', serif;
     margin: 0%;
   
     
@@ -96,14 +96,16 @@ h2:after {
     background-color: #2F2C2A;
     width:30%;
     margin-left: 5%;
-    margin-top: 6%;
+    margin-top: 4%;
 
 }
 
 #Skills{
     position: absolute;
-    top: 80%;
+    top: 70%;
     left:60%;
+    /* float: right;
+    margin-bottom: 100%; */
 }
 #django{
     width:430px;
@@ -154,9 +156,15 @@ h2:after {
     color: rgb(255, 255, 255);
 
 }
+#btnResume{
+    margin-top: 5%;
+    border-radius: 20px;
+    background-color: #202020;
+}
 .skillstext{
     margin-left: 20px;
     padding-top: 5px;
+    font-weight: bolder;
 }
 #imgprojects{
     display: flex;
@@ -174,7 +182,7 @@ margin-bottom: 6%;
 }
 
 .course-card:hover {
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+box-shadow: 16px 16px 16px 16px rgba(0, 0, 0, 0.2);
 }
 
 .container {
@@ -193,14 +201,14 @@ padding: 2px 16px;
 }
 
 form{
-    margin-left: 4%;
+    margin-left: 30%;
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-weight: bolder;
     padding: 20px;
 }
 input{
-    width: 95%;
+    width: 50%;
     height: 40px;
     background-color: #CDCCCC;
    
@@ -208,7 +216,7 @@ input{
    
 }
 textarea{
-    width: 95%;
+    width: 50%;
     height: 80%;
     background-color: #CDCCCC;
 
