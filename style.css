@@ -1,12 +1,10 @@
 body{
     background-color:white;
     font-family: 'Cinzel', serif;
-    margin: 0%;
-  
-    
+    margin: 0%;   
 }
 
-slide-right {
+/* slide-right {
     width: 100%;
     overflow: hidden;
     margin-left: 300px;
@@ -22,7 +20,7 @@ animation: 2s slide-right 0s forwards;
 to {
     transform:translateX(0);
 }
-}
+} */
 .navbar{
     float: right;
     margin-top: 2%;
@@ -31,14 +29,14 @@ to {
 .nava{
     padding: 20px;
     text-decoration: none;
-    font-weight: 800;
     color:rgb(0, 0, 0);
     border-radius: 30%;
     font-size: 20px;
 }
 .nava:hover{
-    color:white;
-    background-color:#3d3d3c;
+    color:rgb(3, 3, 3);
+    text-decoration: underline;
+    /* background-color:#50504f98; */
 }
 
 .slide-bottom{
@@ -52,14 +50,14 @@ to {
 
 #aboutmetext{
     color:rgb(0, 0, 0) ;
-    font-size: 18px;
+    font-size: 22px;
     margin-left: 5%;
-    font-weight: bolder;
+   
 
 }
 #occupation{
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 38px;
 }
 
 
@@ -94,7 +92,7 @@ h2:after {
 
 #imageabout{
     background-color: #2F2C2A;
-    width:30%;
+    width:40%;
     margin-left: 5%;
     margin-top: 4%;
 
@@ -102,14 +100,13 @@ h2:after {
 
 #Skills{
     position: absolute;
-    top: 70%;
-    left:60%;
-    /* float: right;
-    margin-bottom: 100%; */
+    top: 72%; 
+    left:55%;
+   
 }
 #django{
     width:430px;
-    height: 35px;
+    height: 30px;
     border-radius: 20px;
     color: rgb(255, 255, 255);
     background-color: #585857;
@@ -117,7 +114,7 @@ h2:after {
 }
 #html{
     width:457px;
-    height: 35px;
+    height: 30px;
     border-radius: 20px;
     color: rgb(255, 255, 255);
     background-color: #585857;
@@ -125,7 +122,7 @@ h2:after {
 }
 #Python{
     width:410px;
-    height: 35px;
+    height: 30px;
     border-radius: 20px;
     background-color: #585857;
     color: rgb(255, 255, 255);
@@ -133,7 +130,7 @@ h2:after {
 }
 #js{
     width:390px;
-    height: 35px;
+    height: 30px;
     border-radius: 20px;
     background-color: #585857;
     color: rgb(255, 255, 255);
@@ -142,7 +139,7 @@ h2:after {
 }
 #kotlin{
     width:380px;
-    height: 35px;
+    height: 30px;
     border-radius: 20px;
     background-color: #585857;
     color: rgb(253, 253, 253);
@@ -150,7 +147,7 @@ h2:after {
 }
 #react{
     width:370px;
-    height: 35px;
+    height: 30px;
     border-radius: 20px;
     background-color: #585857;
     color: rgb(255, 255, 255);
@@ -158,13 +155,14 @@ h2:after {
 }
 #btnResume{
     margin-top: 5%;
-    border-radius: 20px;
+    border-radius: 5px;
     background-color: #202020;
+    width: 90px;
 }
 .skillstext{
     margin-left: 20px;
     padding-top: 5px;
-    font-weight: bolder;
+   
 }
 #imgprojects{
     display: flex;
@@ -191,6 +189,7 @@ padding: 2px 16px;
 .first-card{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 8%;
 
 }
 
@@ -210,7 +209,8 @@ form{
 input{
     width: 50%;
     height: 40px;
-    background-color: #CDCCCC;
+    background-color: white;
+    border: 1px solid#CDCCCC;
    
     
    
@@ -218,7 +218,8 @@ input{
 textarea{
     width: 50%;
     height: 80%;
-    background-color: #CDCCCC;
+    background-color: white;
+    border: 1px solid#CDCCCC;
 
 }
 button{
@@ -264,7 +265,6 @@ footer{
 .conttext{
     text-align: center;
     color: black;
-    font-weight: bolder;
     font-size: 20px;
 }
 
@@ -278,3 +278,39 @@ footer{
 i{
     padding: 8px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  #text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
